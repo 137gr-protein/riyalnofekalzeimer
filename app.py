@@ -1,7 +1,7 @@
 # Coba without Country
-# import streamlit as st
-# import pandas as pd
-# import joblib
+import streamlit as st
+import pandas as pd
+import joblib
 
 # Load model and pipeline
 model = joblib.load("model_alzheimer_no_country.pkl")
