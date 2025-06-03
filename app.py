@@ -4,13 +4,10 @@ import pandas as pd
 import joblib
 
 # Load model and pipeline
-st.write("⏳ Loading model...")
-model = joblib.load("model_alzheimer_no_country.pkl")
-st.write("✅ Model loaded!")
 
-st.write("⏳ Loading preprocessing pipeline...")
-pipeline = joblib.load("preprocessing_for_ML.pkl")
-st.write("✅ Pipeline loaded!")
+model = joblib.load("model_alzheimer_no_country.pkl")
+# pipeline = joblib.load("preprocessing_for_ML.pkl")
+
 
 st.title("🧠 Alzheimer's Disease Prediction")
 st.write("Enter the details below to predict Alzheimer's risk:")
