@@ -5,7 +5,7 @@
 
 # Load model and pipeline
 model = joblib.load("model_alzheimer_no_country.pkl")
-pipeline = joblib.load("preprocessing_for_ML.pkl")
+# pipeline = joblib.load("preprocessing_for_ML.pkl")
 
 st.title("🧠 Alzheimer's Disease Prediction")
 st.write("Enter the details below to predict Alzheimer's risk:")
